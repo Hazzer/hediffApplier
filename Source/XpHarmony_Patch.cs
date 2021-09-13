@@ -20,7 +20,7 @@ namespace HediffApplier
             {
                 if (__instance.def.defName == "Melee" || __instance.def.defName == "Shooting")
                 {                    
-                    return __result * 0.7f;
+                    return __result * 0.5f;
                 }
                 if(__instance.def.defName == "Social")
                 {
