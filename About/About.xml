@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?> 
 <ModMetaData>
-  <name>Hediffs</name>
-  <author>Hazzer</author>
+  <name>[CZK] Sex Matters</name>
+  <author>CitizenKanye, Hazzer</author>
   <supportedVersions>
     <li>1.3</li>
   </supportedVersions>
-  <packageId>wf.hediffs</packageId>
-  
-  <description>HediffTest</description>
+  <packageId>CZK.sexmatters</packageId>
+  <description>Introducing sexual dimorphism to RimWorld.
+
+Credits:
+- Coding by: Hazzer
+- Additional art by: CitizenKanye
+- Inspired by: Real life
+</description>
 </ModMetaData>
