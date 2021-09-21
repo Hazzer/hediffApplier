@@ -3,24 +3,33 @@
      <HediffDef>
         <defName>FemaleModifierDef</defName>
         <label>Female</label>
-         <description>Test</description>
+         <description>A baseline human woman.</description>
          <makesSickThought>false</makesSickThought>
          <isBad>false</isBad>
          <tendable>false</tendable>
          <scenarioCanAdd>false</scenarioCanAdd>
-
          <stages>
             <li>
                 <label>active</label>
                 <becomeVisible>false</becomeVisible>
                 <minSeverity>0.01</minSeverity>
                 <statFactors>
-                    <SocialImpact>1.5</SocialImpact>
-                    <MeleeHitChance>0.5</MeleeHitChance>
-                    <MeleeDodgeChance>0.5</MeleeDodgeChance>
-                    <ShootingAccuracyPawn>0.7</ShootingAccuracyPawn>
-                    <NegotiationAbility>1.5</NegotiationAbility>
+                    	<NegotiationAbility>1.5</NegotiationAbility>
+		    	<SocialImpact>1.5</SocialImpact>
+		    	<ArrestSuccessChance>0.5</ArrestSuccessChance>
+                    	<MeleeHitChance>0.5</MeleeHitChance>
+                    	<MeleeDodgeChance>0.5</MeleeDodgeChance>
+                    	<ShootingAccuracyPawn>0.7</ShootingAccuracyPawn>
+		    	<AimingDelayFactor>1.5</AimingDelayFactor>
+		    	<ImmunityGainSpeed>1.25</ImmunityGainSpeed>
+			<HungerRateMultiplier>0.75</HungerRateMultiplier>
                 </statFactors>
+		<statOffsets>
+          		<ComfyTemperatureMin>3</ComfyTemperatureMin>
+			<CarryingCapacity>-20</CarryingCapacity>
+			<PainShockThreshold>-0.05</PainShockThreshold>
+			<MentalBreakThreshold>0.05</MentalBreakThreshold>
+       		</statOffsets>
             </li>
         </stages>
     </HediffDef>
